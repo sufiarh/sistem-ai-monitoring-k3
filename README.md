@@ -95,7 +95,7 @@ sistem-monitoring-k3/
 ## Kompetisi
 
 Karya ini diajukan untuk **Lomba Inovasi K3 2026**  
-DK3P Jawa Timur Award 2026
+DK3P Jawa Timur 2026
 
 ---
 
