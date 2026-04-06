@@ -60,21 +60,6 @@ python k3_dashboard.py
 
 ---
 
-## Struktur Folder
-sistem-monitoring-k3/
-├── src/
-│   ├── k3_dashboard.py     # Dashboard utama (gabungan)
-│   ├── cctv_apd.py         # Kamera pintu masuk
-│   └── cctv_fall.py        # Kamera dalam ruangan
-├── models/                 # Letakkan ppe_model.pt di sini
-├── training/
-│   └── ambil_ppe.py        # Script download dataset
-├── docs/                   # Dokumentasi lengkap
-├── requirements.txt
-└── README.md
-
----
-
 ## Dataset & Model
 
 - **Dataset**: [Construction Site Safety v28](https://universe.roboflow.com/roboflow-universe-projects/construction-site-safety) — Roboflow Universe (CC BY 4.0)
