@@ -90,9 +90,6 @@ sistem-monitoring-k3/
 | Sufi Anugrah |
 | Abu Yazid Bustomi |
 
-**Program Studi S1 Teknik Elektro**  
-**Universitas Mulawarman, Samarinda**
-
 ---
 
 ## Kompetisi
