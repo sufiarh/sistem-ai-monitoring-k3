@@ -85,10 +85,10 @@ sistem-monitoring-k3/
 
 ## Tim Pengembang
 
-| Nama | NIM |
-|---|---|
-| Sufi Anugrah | 2209076008 |
-| Abu Yazid Bustomi | 2209076011 |
+| Nama |
+|---|
+| Sufi Anugrah |
+| Abu Yazid Bustomi |
 
 **Program Studi S1 Teknik Elektro**  
 **Universitas Mulawarman, Samarinda**
