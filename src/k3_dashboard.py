@@ -27,8 +27,14 @@ BIRU    = (200, 100, 0  )
 
 # ── Load Model ─────────────────────────────────────────────
 print("Loading model... harap tunggu")
-ppe_model  = YOLO('ppe_model.pt')
-pose_model = YOLO('yolov8n-pose.pt')
+import os
+
+# Path ke folder models (relatif dari src/)
+BASE_DIR   = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+MODELS_DIR = os.path.join(BASE_DIR, 'models')
+
+pose_model = YOLO(os.path.join(MODELS_DIR, 'yolov8n-pose.pt'))
+ppe_model  = YOLO(os.path.join(MODELS_DIR, 'ppe_model.pt'))
 print("Model siap!")
 
 KELAS_TIDAK_LENGKAP = ['NO-Hardhat', 'NO-Safety Vest', 'NO-Mask']
