@@ -2,8 +2,12 @@ import cv2
 from ultralytics import YOLO
 
 print("Loading model PPE...")
-ppe_model = YOLO('ppe_model.pt')
+import os
 
+BASE_DIR   = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+MODELS_DIR = os.path.join(BASE_DIR, 'models')
+
+ppe_model = YOLO(os.path.join(MODELS_DIR, 'ppe_model.pt'))
 # Ganti 0 ke URL RTSP kamera CCTV nanti
 # Contoh RTSP: 'rtsp://admin:password@192.168.1.100:554/stream'
 cap = cv2.VideoCapture(0)
