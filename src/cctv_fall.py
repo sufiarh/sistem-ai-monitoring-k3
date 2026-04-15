@@ -3,8 +3,12 @@ import time
 from ultralytics import YOLO
 
 print("Loading model pose...")
-pose_model = YOLO('yolov8n-pose.pt')
+import os
 
+BASE_DIR   = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+MODELS_DIR = os.path.join(BASE_DIR, 'models')
+
+pose_model = YOLO(os.path.join(MODELS_DIR, 'yolov8n-pose.pt'))
 # Ganti 0 ke URL RTSP kamera CCTV dalam ruangan nanti
 cap = cv2.VideoCapture("http://192.168.43.67:8080/video")
 cap.set(cv2.CAP_PROP_BUFFERSIZE, 1)
