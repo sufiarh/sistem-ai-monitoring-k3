@@ -16,6 +16,23 @@
 
 ---
 
+## Demo Hasil Deteksi
+
+### APD Detection (Kamera Pintu Masuk)
+![Demo APD Detection](image/apd.jpg)
+
+### Fall Detection (Kamera Dalam Ruangan)
+![Demo Fall Detection](image/fall.jpg)
+
+---
+
+## Dokumentasi
+
+Dokumentasi teknis lengkap tersedia di:
+[Full Technical Document.pdf](Full%20Technical%20Document.pdf)
+
+---
+
 ## Teknologi
 
 | Library | Fungsi |
@@ -32,8 +49,8 @@
 
 ### 1. Clone Repository
 ```bash
-git clone https://github.com/sufiarh/sistem-monitoring-k3.git
-cd sistem-monitoring-k3
+git clone https://github.com/sufiarh/sistem-ai-monitoring-k3.git
+cd sistem-ai-monitoring-k3
 ```
 
 ### 2. Buat Virtual Environment
@@ -49,7 +66,7 @@ pip install ultralytics opencv-python numpy
 ```
 
 ### 4. Download Model AI
-Download `ppe_model.pt` dari [Releases](https://github.com/sufiarh/sistem-monitoring-k3/releases) 
+Download `ppe_model.pt` dari [Releases](https://github.com/sufiarh/sistem-ai-monitoring-k3/releases)
 dan letakkan di folder `models/`
 
 ### 5. Jalankan Sistem
@@ -63,7 +80,7 @@ python k3_dashboard.py
 ## Dataset & Model
 
 - **Dataset**: [Construction Site Safety v28](https://universe.roboflow.com/roboflow-universe-projects/construction-site-safety) — Roboflow Universe (CC BY 4.0)
-- **Model PPE**: Download di [Releases](https://github.com/sufiarh/sistem-monitoring-k3/releases)
+- **Model PPE**: Download di [Releases](https://github.com/sufiarh/sistem-ai-monitoring-k3/releases)
 - **Model Pose**: `yolov8n-pose.pt` otomatis terunduh saat pertama dijalankan
 
 ---
@@ -75,11 +92,14 @@ python k3_dashboard.py
 | Sufi Anugrah |
 | Abu Yazid Bustomi |
 
+**Program Studi S1 Teknik Elektro**
+**Universitas Mulawarman, Samarinda**
+
 ---
 
 ## Kompetisi
 
-Karya ini diajukan untuk **Lomba Inovasi K3 2026**  
+Karya ini diajukan untuk **Lomba Inovasi K3 2026**
 DK3P Jawa Timur 2026
 
 ---
